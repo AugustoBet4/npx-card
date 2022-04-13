@@ -1,15 +1,23 @@
 {
   "name": "augustobet4",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "A personal card for Augusto Lopez(@augustobet4)",
   "main": "card.js",
   "type": "module",
+  "bin": {
+    "augustobet4": "./card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustoBet4/npx-card"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon card.js"
+    "dev": "nodemon card.js",
+    "pub": "npm version major & npm publish"
   },
   "keywords": [],
-  "author": "",
+  "author": "Augusto Lopez <augusto.bet4@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "boxen": "^6.2.1",
