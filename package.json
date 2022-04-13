@@ -1,6 +1,6 @@
 {
   "name": "augustobet4",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A personal card for Augusto Lopez(@augustobet4)",
   "main": "card.js",
   "type": "module",
